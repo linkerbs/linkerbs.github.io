@@ -1,0 +1,104 @@
+body{
+    background-image: url(../Img/Elegant_Background-7.jpg);
+    background-repeat: repeat;
+}
+
+header{
+    height: 10em;
+    display: flex;
+    margin: 2em;
+}
+
+
+
+.titulo{
+    justify-content: flex-end;
+    padding: 1em;
+}
+
+em{
+    font-size: 2em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo p{
+    font-size: 1.2em;
+}
+.foto
+{
+max-height: 100%;
+justify-content: left;
+border-radius: 1em;
+width: auto;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  background-color: #fff;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 1em;
+  transition: 0.3s;
+}
+
+
+li a:hover {
+  background-color: #ddd;
+}
+
+  
+
+  li a.active {
+    background-color: #4CAF50;
+  }
+  
+  
+  .tabcontent {
+    background-color:  #ddd;
+    display: none;
+    padding: 1em;
+    border: 1px solid #ccc;
+    border-top: none;
+
+  }
+
+  footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:40px;
+    width:100%;
+    background-image: linear-gradient(to right top, #ced0d3, #dadbde, #e7e7e9, #f3f3f4, #ffffff);
+    border-radius: 2px;
+    padding-top:0.8%;
+ }
+
+ p{
+   font-size: 1.1em;
+   font-family: 'Times New Roman', Times, serif;
+ }
+
+ .tabcontent img{
+   max-width: 100%;
+   height: 24em;
+ }
+
+ @media only screen and (max-width: 720px) {
+  nav{
+    margin-top: 100px;
+  }
+  
+}
